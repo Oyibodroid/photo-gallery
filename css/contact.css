@@ -43,13 +43,14 @@ form {
     padding: 20px;
     position: relative;
     top: 200px;
-    box-shadow: 2px 2px 30px rgba(146, 146, 146, 0.438);
-    border-radius: 5px;
+    box-shadow: 2px 2px 30px rgba(163, 163, 163, 0.438);
+    border-radius: 8px;
 }
 
 label {
     text-transform: capitalize;
     margin-right: 5px;
+    font-size: 15px;
 }
 
 
@@ -90,6 +91,7 @@ button:hover {
 button {
     background-color: var(--white);
     color: var(--dark);
+    font-size: 17px;
     padding: 5px;
     border-radius: 8px;
     border: none;
