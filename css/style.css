@@ -40,7 +40,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--font-family-sans-serif);
-  background-color: var(--light);
+  background-color: tan;
 }
 
 ul {
@@ -118,7 +118,7 @@ main {
   display: flex;
   /* flex-wrap: wrap; */
   gap: 5px;
-  height: 300px;
+  height: 350px;
   overflow: hidden;
 }
 
