@@ -50,6 +50,10 @@ ul {
   align-items: center;
 }
 
+#oni{
+  font-weight: 900px;
+}
+
 header {
   margin: 30px;
   display: flex;
@@ -64,6 +68,10 @@ header a {
   color: var(--dark);
   font-size: 14px;
   text-transform: capitalize;
+}
+
+header a:hover{
+  color: #000000;
 }
 
 #links {
