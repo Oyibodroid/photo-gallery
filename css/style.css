@@ -108,7 +108,18 @@ main {
   box-shadow: 2px 3px 19px rgba(156, 156, 156, 0.466);
 }
 
-@media(max-width:992px) {
+.col2{
+  overflow: hidden;
+  width: 100%;
+}
+
+footer{
+  text-align: center;
+  color: #6c757d;
+  margin: 20px;
+}
+
+@media(max-width:800px) {
   .column {
     height: 100%;
     flex-wrap: wrap;
