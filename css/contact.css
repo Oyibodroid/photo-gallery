@@ -38,11 +38,11 @@
 }
 
 form {
-    width: 50rem;
+    width: 70%;
     margin: auto;
     padding: 20px;
     position: relative;
-    top: 100px;
+    top: 200px;
     box-shadow: 2px 2px 30px rgba(146, 146, 146, 0.438);
     border-radius: 5px;
 }
@@ -65,11 +65,11 @@ label {
     height: 30px;
     margin: 0 10px;
     border-radius: 6px;
-    border: none;
+    border: 1px solid var(--dark);
 }
 
 .user:focus {
-    border: none;
+    outline: none;
 }
 
 textarea {
@@ -79,7 +79,7 @@ textarea {
 }
 
 textarea:focus {
-    stroke: 0px;
+    outline: 0px;
 }
 
 button:hover {
