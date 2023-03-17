@@ -70,7 +70,7 @@ header a {
 }
 
 
-#links a:hover {
+#links a:hover , span:hover{
   transition: ease 1s;
   box-shadow: 2px 2px 18px rgba(146, 146, 146, 0.438);
 }
@@ -165,8 +165,20 @@ footer {
 
 .sidenav a img:hover {
   animation: shake 0.5s;
-
   animation-iteration-count: infinite;
+}
+
+span{
+  position: fixed;
+  font-size: 1.5rem;
+  bottom: 0;
+  right: 0;
+  margin: 30px 11px;
+  color: var(--dark);
+  font-weight: 700;
+  line-height: 0;
+  padding: 10px 5px 20px;
+  border-radius: 50%;
 }
 
 @keyframes shake {
