@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Photography project</title>
 </head>
 
@@ -13,32 +13,48 @@
     <header>
 
         <div id="links">
-            <a href="home.html">
+            <a href="./index.html">
                 <p id="oni">only1Oni</p>
             </a>
-            <!-- <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">projects</a></li>
-                <li><a href="#">portfolio</a></li>
-            </ul> -->
 
+            <a href="#popup-form">contact</a>
 
         </div>
-        <div class="contact">
-            <a href="contact.html">contact</a>
-            <a href="#"><img src="/images/icons/instagram.png" alt=""></a>
-            <a href="#"><img src="/images/icons/tiktok.png" alt=""></a>
-            <a href="#"><img src="/images/icons/twitter.png" alt=""></a>
-            <a href="#"><img src="/images/icons/youtube.png" alt=""></a>
-        </div>
-
 
     </header>
 
+
     <main>
 
-<!-- 
+
+
+        <form id="popup-form" action="" method="post">
+
+            <div>
+
+                <div class="text">
+                    <div class="name">
+                        <label for="name">name: </label>
+                        <input name="name" class="user" placeholder="Your name" type="text">
+                    </div>
+
+                    <div class="email">
+                        <label for="email">email: </label>
+                        <input name="email" class="user" placeholder="Your email" type="email">
+                    </div>
+
+                </div>
+
+                <div>
+                    <textarea name="message" placeholder="What's on your mind..." id="message"></textarea>
+                </div>
+                <div class="button">
+
+                    <button type="submit">send &#10148;</button>
+                </div>
+            </div>
+        </form>
+        <!-- 
         <section>
             <div class="card">
 
@@ -145,10 +161,31 @@
 
 
     </main>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="#"><img src="/images/icons/instagram.png" alt=""></a>
+        <a href="#"><img src="/images/icons/tiktok.png" alt=""></a>
+        <a href="#"><img src="/images/icons/twitter.png" alt=""></a>
+        <a href="#"><img src="/images/icons/youtube.png" alt=""></a>
+    </div>
     <footer>
-        <p>&copy Only1Oni</p>
+        <p>&copy Only1Oni 2023</p>
     </footer>
 
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
 </body>
 
 
