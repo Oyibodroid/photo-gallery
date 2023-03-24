@@ -16,15 +16,15 @@ function myForm() {
     document.getElementById("drop-form").classList.toggle("drop");
 }
 
-// window.onclick = function (event) {
-//     if (!event.target.matches('#burger')) {
-//         var dropdowns = document.getElementsByClassName("dropdown-content");
-//         var i;
-//         for (i = 0; i < dropdowns.length; i++) {
-//             var openDropdown = dropdowns[i];
-//             if (openDropdown.classList.contains('show')) {
-//                 openDropdown.classList.remove('show');
-//             }
-//         }
-//     }
-// }
+window.onclick = function (event) {
+    if (!event.target.matches('button')) {
+        var dropdowns = document.getElementsById("drop-form");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}

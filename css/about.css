@@ -89,9 +89,19 @@ li {
 
 form{
     margin: 0;
+    width: 90%;
 }
 
-.drop {
+input[type= "text"],
+input[type= "email"],
+textarea{
+    border: none;
+    border-bottom: 1px solid rgb(178, 178, 178);
+    background: transparent;
+    border-radius: 0;
+}
+
+#drop-form.drop {
     display: block;
 }
 
