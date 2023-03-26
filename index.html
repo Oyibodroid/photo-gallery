@@ -2,18 +2,31 @@
 <html lang="en">
 
 <head>
+    <title>Only1oni</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Photographer html template">
+    <meta name="keywords" content="photographer, music, daniel oni, creative, Only1oni, biography, daniel, oni">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap" rel="stylesheet">
-    <script src="./nav.js"></script>
-    <link rel="stylesheet" href="./css/shared.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/form.css">
-    <title>Photography project</title>
+
+    <link href="./images/icons/1.png" rel="shortcut icon" />
+    <script src="./nav.js" defer></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="./css/shared.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+
 </head>
 
 <body>
+
+    <!-- <div id="preloder">
+        <div class="loader"></div>
+    </div> -->
+
     <header>
 
         <div id="nav">
@@ -22,15 +35,15 @@
             </a>
 
             <div id="burger-container">
-                <button onclick="myFunction()" id="burger">
+                <button onclick="myFunction(), burger()" id="burger">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
                 </button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="./index.html">home</a>
                     <a href="./about.html">about</a>
-                    <a href="#">music</a>
+                    <a href="./gallery.html">gallery</a>
+                    <a href="./music.html">music</a>
                     <a href="#popup-form">contact</a>
                 </div>
             </div>
@@ -41,161 +54,149 @@
     </header>
 
 
-    <main>
-
-        <div id="popup-form">
-            <form action="" method="post">
-
-                <div>
-
-                    <div class="text">
-                        <div class="name">
-                            <label for="name">name: </label>
-                            <input name="name" class="user" placeholder="Your name" type="text">
-                        </div>
-
-                        <div class="email">
-                            <label for="email">email: </label>
-                            <input name="email" class="user" placeholder="Your email" type="email">
-                        </div>
-
-                    </div>
-
-                    <div>
-                        <textarea name="message" placeholder="What's on your mind..." id="message"></textarea>
-                    </div>
-                    <div class="button">
-
-                        <button type="submit">send &#10148;</button>
-                    </div>
-                </div>
-            </form>
-            <a class="close" href="#">&times;</a>
+    <section class="about-section">
+        <div class="about-bg set-bg">
+            <img src="images/img2/Personal/DAN_6889.jpg" alt="" srcset="">
         </div>
 
-        <!-- 
-        <section>
-            <div class="card">
+        <div class="vertical">
+            <h2>daniel oni</h2>
+        </div>
 
-                <img src="/images/img2/Personal/bannerpage.jpeg" alt="">
+        <div class="about-text">
+            <div class="daniel">
+                <h2>About me</h2>
 
-                <div class="content">
+                <p>
+                    Daniel 'Only1Oni' Adeola Oni describes himself as an exceptional human exploring the art of
+                    Photography has made him popular and relevant for almost a decade.
+                    Now, he's taking the leap to express his creative side through music.
+                </p>
+            </div>
 
-                    DANIEL ONI Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore delectus facilis
-                    suscipit cumque voluptate, ratione quasi necessitatibus nulla velit! Nulla, fugiat fuga
-                    doloribus minus iure facere excepturi deleniti, laborum doloremque, culpa praesentium vel
-                    voluptatum itaque quidem suscipit eligendi beatae! Perspiciatis optio commodi repellendus quo
-                    fuga quia facilis, aliquid molestias quisquam.
+            <div class="clients">
+                <h3>My Clients</h3>
 
+                <ul>
+                    <li> <span>&check;</span> Dangote</li>
+                    <li> <span>&check;</span> Tush</li>
+                    <li> <span>&check;</span> Zlatan</li>
+                    <li> <span>&check;</span> Iyanya</li>
+                    <li> <span>&check;</span> Timaya</li>
+                    <li> <span>&check;</span> Tosin Bee</li>
+                </ul>
+            </div>
+
+            <div class="editorial">
+                <h3>Editorial</h3>
+                <p>
+                    The Library
+                </p>
+            </div>
+
+            <div class="contact">
+
+                <button class="site-btn" onclick="myForm()">contact me</button>
+
+
+                <div>
+                    <form id="drop-form" action="" method="post">
+
+                        <div class="info">
+
+                            <div class="text">
+                                <input name="name" class="user" placeholder="Your name" type="text">
+                            </div>
+
+                            <div class="email">
+                                <input name="email" class="user" placeholder="Your email" type="email">
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <textarea name="message" class="user" placeholder="What's on your mind..."
+                                id="message"></textarea>
+                        </div>
+                        <div class="button">
+
+                            <button class="submit" type="submit">send &#10148;</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </section> -->
-        <section>
-            <a href="#"><span href="#">&wedbar;</span></a>
-            <div class="row ">
+        </div>
+        </div>
 
-                <div class="column col1">
-                    <img src="images/img2/Pre-wedding/1/DAN_9794.jpg" alt="">
-                    <img class="img2" src="images/img2/Pre-wedding/2/DAN_0805.jpg" alt="">
-                    <img class="img3" src="images/img2/Pre-wedding/3/DAN_5718.jpg" alt="">
-                    <img class="img4" src="images/img2/Pre-wedding/1/DAN_9574.jpg" alt="">
+    </section>
+
+
+    <section class="services-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <img src="images/icons/1.png" alt="">
+                    <h4>Studio Photography</h4>
                 </div>
 
-                <div class="column col2">
-                    <img src="/images/img/photo-1558212628-ad7f5fb28c5e.jpg" alt="">
-                    <img src="/images/img2/Birthday/GladysLasila/DAN_7693.jpg" alt="">
-                    <img src="/images/img2/Birthday/PrincessFola/DAN_9747.jpg" alt="">
+                <div class="col">
+                    <img src="images/icons/2.png" alt="">
+                    <h4>Wedding Editing</h4>
                 </div>
 
-                <div class="column col3">
-                    <img src="/images/img2/Birthday/Tonia/DAN_7435.jpg" width="200" alt="">
-                    <img src="/images/img2/Doonte/DAN_3060.jpg" alt="">
-                    <!-- <img src="/images/img2/Ehyo/DAN_1958.jpg" alt=""> -->
-                    <img src="/images/img2/Tush/DAN_6227.jpg" alt="">
-                    <img src="/images/img2/Tush/DAN_6326.jpg" alt="">
-
+                <div class="col">
+                    <img src="images/icons/3.png" alt="">
+                    <h4>Photo on tape</h4>
+                </div>
+                <div class="col">
+                    <img src="images/icons/4.png" alt="">
+                    <h4>Modern Editing</h4>
                 </div>
 
-
-                <div class="column col4">
-                    <img src="/images/img2/Collaboration/DAN_1102 1.jpg" alt="">
-                    <img src="/images/img2/Iyanya/DAN_9002.jpg" alt="">
-                    <img src="/images/img2/Iyanya/DAN_9240.jpg" alt="">
-                    <img src="/images/img2/Iyanya/DAN_8269.jpg" alt="">
+                <div class="col">
+                    <img src="images/icons/5.png" alt="">
+                    <h4>Video Recording</h4>
                 </div>
 
-                <div class="column col5">
-                    <img src="/images/img2/RidahTalatu/DAN_9876.jpg" alt="">
-                    <img src="/images/img2/Puncho/DAN_1585.jpg" alt="">
-                    <img src="/images/img2/Collaboration/DAN_1095.jpg" alt="">
-                    <img src="/images/img2/TosinBee/DAN_0895.jpg" alt="">
-                </div>
-
-                <div class="column col6">
-                    <img src="/images/img/photo-1534073828943-f801091bb18c.jpg" alt="">
-                    <img src="/images/img2/Puncho/DAN_1681.jpg" alt="">
-                    <img src="/images/img2/ReLaunchTheLibrary/DAN_5988.jpg" alt="">
-                    <img src="/images/img2/ReLaunchTheLibrary/DAN_6049.jpg" alt="">
-                    <img src="/images/img2/ReLaunchTheLibrary/DAN_5902.jpg" alt="">
-                </div>
-
-                <div class="column col7">
-                    <img src="/images/img2/Timaya/DAN_6361.jpg" alt="">
-                    <img src="/images/img2/ReLaunchTheLibrary/DAN_5473.jpg" alt="">
-                    <img src="images/img2/Puncho/DAN_1805.jpg" alt="">
-                    <img src="images/img2/TosinBee/DAN_0629.jpg" alt="">
-                </div>
-
-                <div class="column col8">
-                    <img src="/images/img2/ReLaunchTheLibrary/DAN_5968.jpg" alt="">
-                    <img src="/images/img2/Birthday/GladysLasila/DAN_7690.jpg" alt="">
-                    <img src="images/img2/Birthday/PrincessFola/DAN_9725.jpg" alt="">
-                    <img src="images/img2/TosinBee/DAN_0800.jpg" alt="">
-                </div>
-
-                <div class="column col8">
-                    <img src="/images/img2/Personal/DAN_5455.jpg" alt="">
-                    <img src="/images/img2/Puncho/DAN_1603.jpg" alt="">
-                    <img src="images/img2/Prowess/DAN_0460.jpg" alt="">
-                    <img src="images/img2/Prowess/DAN_0649.jpg" alt="">
-                </div>
-
-                <div class="column col9">
-                    <img src="/images/img2/Tush/DAN_6459.jpg" alt="">
-                    <img src="/images/img2/Tush/DAN_6294.jpg" alt="">
-                    <img src="images/img2/Tush/DAN_6397.jpg" alt="">
-                    <img src="images/img2/Tush/DAN_6252.jpg" alt="">
-                    <img src="images/img2/Prowess/DAN_0700.jpg" alt="">
-                </div>
-
-                <div class="column col10">
-                    <img src="/images/img2/Ehyo/DAN_7995.jpg" alt="">
-                    <img src="/images/img2/Puncho/DAN_1784.jpg" alt="">
-                    <img src="images/img2/Ehyo/DAN_8319.jpg" alt="">
-                    <img src="images/img2/Iyanya/DAN_8484.jpg" alt="">
-                    <img src="images/img2/Ehyo/DAN_1755.jpg" alt="">
+                <div class="col">
+                    <img src="images/icons/6.png" alt="">
+                    <h4>Video Editing</h4>
                 </div>
 
             </div>
-        </section>
+            <div class="text-center">
+                <!-- <div class="site-btn">Ask for a Quote</div> -->
+            </div>
+        </div>
+    </section>
 
 
-    </main>
 
 
-    <div id="mySidenav" class="sidenav">
-        <a href="#"><img src="/images/icons/instagram.png" alt=""></a>
-        <a href="#"><img src="/images/icons/tiktok.png" alt=""></a>
-        <a href="#"><img src="/images/icons/twitter.png" alt=""></a>
-        <a href="#"><img src="/images/icons/youtube.png" alt=""></a>
-    </div>
-    <footer>
-        <p>&copy Only1Oni 2023</p>
+    <footer class="footer-section">
+        <div class="container-fluid">
+            <div class="footer-row">
+                <div class="col-md-6 order-1 order-md-2">
+                    <div class="footer-social-links">
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 order-2 order-md-1">
+                    <div class="copyright">
+                        Copyright ©
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 
-
 </body>
-
 
 </html>
