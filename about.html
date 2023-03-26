@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
     <title>Only1oni</title>
@@ -15,7 +15,7 @@
         rel="stylesheet">
 
 
-        <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="./css/shared.css" />
     <link rel="stylesheet" href="./css/about.css" />
 
@@ -41,10 +41,10 @@
                     <div class="bar3"></div>
                 </button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="./index.html">home</a>
                     <a href="./about.html">about</a>
-                    <a href="#">music</a>
-                    <a href="./contact.html">contact</a>
+                    <a href="./gallery.html">gallery</a>
+                    <a href="./music.html">music</a>
+                    <a href="#popup-form">contact</a>
                 </div>
             </div>
 
@@ -56,11 +56,16 @@
 
     <section class="about-section">
         <div class="about-bg set-bg">
-            <img src="images/img2/Personal/DAN_5464.jpg" alt="" srcset="">
+            <img src="images/img2/Personal/DAN_6889.jpg" alt="" srcset="">
         </div>
+
+        <div class="vertical">
+            <h2>daniel oni</h2>
+        </div>
+
         <div class="about-text">
             <div class="daniel">
-                <h2>About me. Daniel Oni</h2>
+                <h2>About me</h2>
 
                 <p>
                     Daniel 'Only1Oni' Adeola Oni describes himself as an exceptional human exploring the art of
@@ -91,38 +96,36 @@
 
             <div class="contact">
 
-                    <button class="site-btn" onclick="myForm()">contact me</button>
+                <button class="site-btn" onclick="myForm()">contact me</button>
 
 
-                <div >
+                <div>
                     <form id="drop-form" action="" method="post">
 
-                        <div>
+                        <div class="info">
 
                             <div class="text">
-                                <div class="name">
-                                    <label for="name">name: </label>
-                                    <input name="name" class="user" placeholder="Your name" type="text">
-                                </div>
-
-                                <div class="email">
-                                    <label for="email">email: </label>
-                                    <input name="email" class="user" placeholder="Your email" type="email">
-                                </div>
-
+                                <input name="name" class="user" placeholder="Your name" type="text">
                             </div>
 
-                            <div>
-                                <textarea name="message" placeholder="What's on your mind..." id="message"></textarea>
+                            <div class="email">
+                                <input name="email" class="user" placeholder="Your email" type="email">
                             </div>
-                            <div class="button">
 
-                                <button type="submit">send &#10148;</button>
-                            </div>
+                        </div>
+
+                        <div>
+                            <textarea name="message" class="user" placeholder="What's on your mind..."
+                                id="message"></textarea>
+                        </div>
+                        <div class="button">
+
+                            <button class="submit" type="submit">send &#10148;</button>
                         </div>
                     </form>
                 </div>
             </div>
+        </div>
         </div>
 
     </section>

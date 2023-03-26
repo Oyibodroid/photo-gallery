@@ -37,6 +37,10 @@ main {
   width: 100%;
 }
 
+#popup-form{
+  z-index: 3;
+}
+
 .row {
   width: 100%;
   display: flex;
@@ -92,8 +96,6 @@ footer {
 }
 
 
-
-
 .sidenav {
   height: 100%;
   width: 160px;
@@ -133,7 +135,7 @@ span {
   color: var(--dark);
   font-weight: 700;
   line-height: 0;
-  padding: 10px 5px 20px;
+  padding: 13px 9px 19px;
   border-radius: 50%;
 }
 
