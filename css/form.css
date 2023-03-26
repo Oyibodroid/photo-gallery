@@ -34,7 +34,7 @@ label {
     width: 100%;
     display: flex;
     align-items: center;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
     gap: 10px;
     justify-content: space-between;
 }
@@ -109,6 +109,14 @@ textarea{
 
     label {
         display: none;
+    }
+}
+
+@media(max-width:400px){
+    .info{
+        flex-direction: column;
+        margin-left: 0;
+        align-items: normal;
     }
 }
 
