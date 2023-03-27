@@ -50,6 +50,10 @@ header a {
   cursor: pointer;
 }
 
+#burger:focus{
+  outline: none;
+}
+
 .bar1,
 .bar2,
 .bar3 {
