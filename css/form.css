@@ -10,6 +10,7 @@
 
 #popup-form:target {
     display: block;
+    z-index: 3;
 }
 
 
@@ -17,7 +18,7 @@
 form {
     width: 70%;
     /* height: 100%; */
-    margin: 100px auto 50px;
+    margin: 50% auto 50px;
     padding: 30px;
     box-shadow: 2px 2px 30px rgba(163, 163, 163, 0.438);
     border-radius: 8px;
@@ -88,13 +89,12 @@ textarea{
     font-size: 2rem;
     font-weight: lighter;
     left: 50%;
-    /* text-align: center; */
+    text-align: center;
     line-height: 0;
     border-radius: 50%;
     padding: 13px 6px 10px;
     width: 30px;
     height: 30px;
-    margin: auto;
 }
 
 .close:hover{
