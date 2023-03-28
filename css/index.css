@@ -10,9 +10,9 @@ li {
     display: flex;
     height: 100%;
     width: 100%;
-    /* padding: 1rem; */
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .daniel,
@@ -39,6 +39,7 @@ li {
     writing-mode: vertical-rl;
     letter-spacing: 18px;
 }
+
 
 .about-bg img {
     width: 100%;
@@ -98,7 +99,7 @@ li {
 
 }
 
-.site-btn:focus{
+.site-btn:focus {
     outline: none;
 }
 
@@ -113,6 +114,9 @@ form {
     width: 90%;
 }
 
+#drop-form {
+    margin-top: 20px;
+}
 
 #drop-form.drop {
     display: block;
@@ -159,40 +163,38 @@ h4 {
 .footer-section {
     background: #212121;
     padding: 19px 40px;
-}
-
-.footer-row {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+}
+
+.social-links {
+    height: 100%;
     background: none;
 }
 
-#drop-form{
-    margin-top: 20px;
+.social-links img {
+    background: transparent !important;
+    padding: 0;
+    margin: 0;
+    height: 20px;
 }
 
-.copyright {
+footer div {
+    background: #212121;
+}
+
+footer p {
     background: none;
-    color: #fff;
-    font-size: 11px;
-    font-weight: 500;
-    padding: 4px 0;
-}
-
-.footer-social-links {
-    text-align: right;
-}
-
-.footer-social-links a {
-    display: inline-block;
-    color: #fff;
-    font-size: 17px;
-    margin-left: 40px;
+    color: white;
 }
 
 
+@media(min-width:991px) {
+    .about-bg img {
+        clip-path: polygon(0% 0%, 75% 0%, 100% 80%, 75% 100%, 0% 100%);
+    }
+}
 
 
 @media(max-width:1550px) {
@@ -207,6 +209,7 @@ h4 {
 
 @media(max-width:990px) {
 
+
     p,
     li {
         font-size: 16px;
@@ -220,8 +223,10 @@ h4 {
         flex-direction: column;
     }
 
-    .about-bg {
-        height: 30%;
+    .about-bg img {
+        top: 0;
+        height: 800px;
+        overflow-y: hidden;
     }
 
     .about-text {
@@ -239,13 +244,31 @@ h4 {
 
 }
 
-@media(max-width:490px) {
+@media(max-width:650px) {
     .about-bg img {
-        height: 50%;
+        height: 550px;
+        overflow-y: hidden;
+    }
+}
+
+@media(max-width:490px) {
+
+
+    .about-bg img {
+        height: 550px;
+        overflow-y: hidden;
     }
 
-    #oni{
+    #oni {
         font-size: 16px;
+    }
+
+    .footer-section {
+        flex-direction: column-reverse;
+    }
+
+    .footer-section div.social-links {
+        margin-bottom: 15px;
     }
 }
 
