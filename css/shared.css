@@ -50,7 +50,7 @@ header a {
   cursor: pointer;
 }
 
-#burger:focus{
+#burger:focus {
   outline: none;
 }
 
@@ -115,4 +115,69 @@ header a {
 
 .show {
   display: block;
+}
+
+
+/*********************
+     footer styling
+ *********************/
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+     
+.footer-section {
+  width: 100%;
+  background: #212121;
+  padding: 19px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer-text{
+  width: 100%;
+}
+
+.social-links {
+  width: 100%;
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+footer div {
+  background: none;
+}
+
+footer p {
+  font-size: 13px;
+  background: none;
+  text-align: left;
+  color: white;
+}
+
+.btn {
+  font-size: 20px;
+  color: white;
+}
+
+
+@media(max-width:490px) {
+
+
+  .footer-section {
+      flex-direction: column-reverse;
+  }
+
+  .footer-section div.social-links {
+      margin-bottom: 15px;
+  }
+
+  .footer-text p{
+    text-align: center;
+  }
 }

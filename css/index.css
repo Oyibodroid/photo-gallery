@@ -12,7 +12,7 @@ li {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .daniel,
@@ -28,18 +28,20 @@ li {
 .vertical {
     position: absolute;
     background: none;
+    left: 0;
+    z-index: 1;
 }
 
 .vertical h2 {
     background: none;
     color: #ffffff62;
-    font-size: 60px;
+    font-size: 75px;
     text-transform: uppercase;
     font-weight: 800;
     writing-mode: vertical-rl;
     letter-spacing: 18px;
+    text-align: center;
 }
-
 
 .about-bg img {
     width: 100%;
@@ -156,39 +158,9 @@ form {
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
 }
-
-.footer-section {
-    background: #212121;
-    padding: 19px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.social-links {
-    height: 100%;
-    background: none;
-}
-
-.social-links img {
-    background: transparent !important;
-    padding: 0;
-    margin: 0;
-    height: 20px;
-}
-
-footer div {
-    background: #212121;
-}
-
-footer p {
-    background: none;
-    color: white;
-}
-
 
 @media(min-width:991px) {
     .about-bg img {
@@ -196,6 +168,11 @@ footer p {
     }
 }
 
+@media(min-width:1550px){
+    footer p{
+        text-align: left;
+    }
+}
 
 @media(max-width:1550px) {
     .clients ul {
