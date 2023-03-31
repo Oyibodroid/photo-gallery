@@ -35,7 +35,7 @@ li {
 .vertical h2 {
     background: none;
     color: #ffffff62;
-    font-size: 75px;
+    font-size: 70px;
     text-transform: uppercase;
     font-weight: 800;
     writing-mode: vertical-rl;
@@ -130,7 +130,8 @@ form {
 
 .container-fluid h3 {
     padding: 0 1.2rem;
-    font-weight: 100;
+    font-weight: 500;
+    color: #444;
 }
 
 .row {

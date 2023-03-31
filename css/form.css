@@ -38,7 +38,7 @@ label {
     align-items: center;
     margin-bottom: 50px;
     gap: 10px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .user{

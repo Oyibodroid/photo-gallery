@@ -8,7 +8,11 @@
     <link
         href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap"
         rel="stylesheet">
-    <script src="./nav.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <script src="https://kit.fontawesome.com/2cb317e1bf.js" crossorigin="anonymous"></script>
+
+    <script src="./nav.js" defer></script>
     <link rel="stylesheet" href="./css/shared.css">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/music.css">
@@ -45,36 +49,67 @@
 
     
     <main>
+
+        
+        <div id="popup-form">
+          
+            <form id="drop-form" action="" method="post">
+
+                <div class="info">
+
+                    <div class="contact-text">
+                        <input name="name" class="user" placeholder="Your name" type="text">
+                    </div>
+
+                    <div class="email">
+                        <input name="email" class="user" placeholder="Your email" type="email">
+                    </div>
+
+                </div>
+
+                <div>
+                    <textarea name="message" class="user" placeholder="What's on your mind..."
+                        id="message"></textarea>
+                </div>
+                <div class="button">
+
+                    <button class="submit" type="submit">send &#10148;</button>
+                </div>
+            </form>
+            <a class="close" href="#">&times;</a>
+        </div>
+
+
         <section class="card-container">
-            <div class="container">
+            <a  href="https://open.spotify.com/artist/7t6qxmgzVariFlzDDMEBXK?si=aAzLEcRBRfulMCpXV_jJ4Q" target="_blank" class="container">
                 <img src="images/img/photo-1558212628-ad7f5fb28c5e.jpg" alt="Avatar" class="image">
                 <div class="overlay">
                     <p class="text">Take a look at my Spotify</p>
                 </div>
                 <h3>Spotify</h3>
-            </div>
-            <div class="container">
+            </a>
+            <a href="https://www.youtube.com/@onitharnyel" target="_blank" class="container">
                 <img src="images/img/photo-1494475673543-6a6a27143fc8.jpg" alt="Avatar" class="image">
                 <div class="overlay">
                     <p class="text">Take a look at my Youtube</p>
                 </div>
                 <h3>Youtube</h3>
-            </div>
-            <div class="container">
+            </a>
+            <a href="https://audiomack.com/only1oni" target="_blank" class="container">
                 <img src="images/img/photo-1484755560615-a4c64e778a6c.jpg" alt="Avatar" class="image">
                 <div class="overlay">
                     <p class="text">Take a look at my Apple music</p>
                 </div>
                 <h3>Apple music</h3>
-            </div>
-            <div class="container">
+            </a>
+            <a href="https://music.apple.com/tr/artist/only1oni/1505512929" target="_blank" class="container">
                 <img src="images/img/photo-1534073828943-f801091bb18c.jpg" alt="Avatar" class="image">
                 <div class="overlay">
                     <p class="text">Take a look at my Audiomack</p>
                 </div>
                     <h3>Audiomack</h3>
                 
-            </div>
+            </a>
         </section>
 
 
@@ -101,3 +136,4 @@
 </footer>
 
 </html>
+
