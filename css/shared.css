@@ -151,10 +151,15 @@ footer {
   background-color: transparent;
 }
 
+.social-links a{
+  cursor: pointer;
+}
+
 .social-links a i {
   background: none !important;
   color: white;
   margin: 5px;
+
 }
 
 footer div {
@@ -169,9 +174,9 @@ footer p {
   color: white;
 }
 
-.btn {
-  /* font-size: 20px;
-  color: white; */
+.btn i:hover{
+  /* font-size: 20px; */
+  color: rgb(223, 223, 223);
 }
 
 
