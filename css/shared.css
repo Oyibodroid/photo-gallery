@@ -4,9 +4,13 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  background-color: rgb(250, 250, 250);
 }
 
+body,
+header {
+
+  background-color: rgb(250, 250, 250);
+}
 
 header {
   margin: 20px;
@@ -44,6 +48,7 @@ header a {
   padding: 16px 14px;
   border: none;
   cursor: pointer;
+  background: none;
 }
 
 #burger:focus {
@@ -143,10 +148,13 @@ footer {
   display: inline-block;
   padding: 0 15px;
   text-align: right;
+  background-color: transparent;
 }
 
-.social-links a{
- 
+.social-links a i {
+  background: none !important;
+  color: white;
+  margin: 5px;
 }
 
 footer div {
@@ -176,6 +184,7 @@ footer p {
 
   .footer-section div.social-links {
     margin-bottom: 15px;
+    text-align: center;
   }
 
   .footer-text p {
