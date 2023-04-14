@@ -6,7 +6,7 @@
   font-size: 16px;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -33,6 +33,29 @@ header a {
   text-transform: capitalize;
   background: none;
 }
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.support {
+  animation: shake 1.5s ease-in-out 2s alternate infinite both;
+}
+
+.support a {
+  padding: 5px 15px;
+  background-color: #212121;
+  color: white;
+  border-radius: 15px;
+}
+
+/* .support a::after{
+  content: '';
+  width: 100%;
+  padding: 8px 20px;
+  background-color: transparent;
+} */
 
 #nav {
   width: 100%;
@@ -66,6 +89,7 @@ header a {
   width: 20px;
   height: 3px;
   display: block;
+  padding: 1px 0;
   margin: 3px 0;
   position: relative;
   top: 0;
@@ -155,7 +179,7 @@ footer {
   background-color: transparent;
 }
 
-.social-links a{
+.social-links a {
   cursor: pointer;
 }
 
@@ -178,7 +202,7 @@ footer p {
   color: white;
 }
 
-.btn i:hover{
+.btn i:hover {
   /* font-size: 20px; */
   color: rgb(223, 223, 223);
 }
@@ -198,5 +222,52 @@ footer p {
 
   .footer-text p {
     text-align: center;
+  }
+}
+
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
   }
 }

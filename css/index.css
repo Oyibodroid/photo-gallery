@@ -48,6 +48,7 @@ li {
     height: 100%;
     object-fit: cover;
     filter: grayscale(30%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 74%, 75% 100%, 0% 100%);
 }
 
 .about-text {
@@ -122,6 +123,7 @@ form {
 
 #drop-form.drop {
     display: block;
+    background-color: #fff;
 }
 
 .container-fluid {
@@ -163,9 +165,27 @@ h4 {
     font-weight: 500;
 }
 
+h2 span{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.works{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.carousel-item{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
 @media(min-width:991px) {
     .about-bg img {
-        clip-path: polygon(0% 0%, 75% 0%, 100% 80%, 75% 100%, 0% 100%);
     }
 }
 
