@@ -1,3 +1,9 @@
 {
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5502,
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
+    "workbench.editor.autoLockGroups": {
+        "jupyter-notebook": true
+    },
+    "screencastMode.fontSize": 50
 }

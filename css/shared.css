@@ -209,7 +209,10 @@ footer p {
 
 
 @media(max-width:512px) {
-
+  header {
+    margin: 20px 5px;
+    padding: 0 5px;
+}
 
   .footer-section {
     flex-direction: column-reverse;
